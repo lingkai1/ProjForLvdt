@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ling kai, xjtu, LIC=AK1EV-PWFMJ-HRPXN-YV129-P91ME-HPGH6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\keil 5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\研一的工作\LVDT\LVDT2\LVDT\projforlvdt\Project\Project.uvprojx
+Project File Date:  04/05/2016
+
+<h2>Output:</h2>
+Build target 'Embed-Net'
+compiling main.c...
+..\User\iir.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\fir.h(11): warning:  #1-D: last line of file ends without a newline
+  short fir_filter(short x, float h[]);
+..\User\main.c(190): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                sendData((char*)orderbuff,8);   // 命令接受成功，返回相同的帧
+..\User\main.c(220): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                sendData((char*)orderbuff,13);   // if the network set is successful~ send back the same frame          
+..\User\main.c(222): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=18892 RO-data=424 RW-data=572 ZI-data=1108  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\研一的工作\LVDT\LVDT2\LVDT\projforlvdt\Project\RTE
+  D:\keil 5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
